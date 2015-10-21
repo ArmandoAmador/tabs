@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.tabs-container {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.tabs-container .tabs-links {
+  list-style: none;
+}
+
+.tabs-container .tabs-links li {
+  background: #fff;
+  border: 1px #aaa solid;
+  border-bottom: none;
+  float: left;
+  margin-right: 3px;
+  padding: 10px;
+}
+
+.tabs-container .tabs-links li.active {
+  margin-bottom: -1px;
+  padding-bottom: 11px;
+}
+
+.tab-content {
+  background: #fff;
+  border: 1px solid #aaa;
+  clear: both;
+  height: 200px;
+}
+
+.tab-content div {
+  padding: 10px;
+}
+
