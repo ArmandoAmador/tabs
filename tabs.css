@@ -15,6 +15,7 @@
 .tabs-container .tabs-links li {
   background: #fff;
   border: 1px #aaa solid;
+  border-radius: 5px 5px 0 0;
   border-bottom: none;
   float: left;
   margin-right: 3px;
